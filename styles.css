@@ -1,0 +1,17 @@
+.small-square {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.parentcont{
+    flex-direction: column-reverse;
+    height:100vh;
+    display: flex;
+}
