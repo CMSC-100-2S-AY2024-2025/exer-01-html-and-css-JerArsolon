@@ -4,5 +4,35 @@
     align-items: center;
     color: black;
     border: 1px solid red;
-    margin: 10px;
+    background-color: gray;
+    font-weight: bold;
+}
+
+.profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.first-container{
+    background-color:rgb(147, 203, 255);
+}
+
+.second-container{
+    background-color:rgb(124, 190, 248);
+}
+
+
+.github-profile{
+    width:80px;height:42px;
+}
+
+.linkedin-profile{
+    width:42px;height:42px;
+}
+
+.body{
+    background-color:powderblue;
 }
