@@ -97,6 +97,7 @@ h2 {
     width: 35px;
     margin: 5px;
 }
+
 .social-link img:hover {
     transform: scale(1.1);
 }
@@ -105,6 +106,17 @@ h2 {
 .footer {
     position: absolute;
     bottom: 0;
-    text-align: center;
-    padding: 10px 0;
+    padding: 10px;
+    display: flex; 
+    gap: 40px;     
+    align-items: center;
+}
+
+.footer div {
+    display: flex; /* flex; so that text and images are inline */
+    gap: 10px;
+}
+
+.footer img {
+    width: 25px;
 }
