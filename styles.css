@@ -1,38 +1,88 @@
-.description{
-    display:flex;
+body {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.left-section,.right-section{
+    display: flex;
+    width:50%;
+    flex-direction: column;
+    justify-content: center;
+    padding:40px;
+}
+.left-section {
+    background: white;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.right-section {
+    align-items: center;
+    background: #44576D;
+    color: white;
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 20px; 
+}
+
+/* Profile picture */
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.profile-picture:hover {
+    transform: scale(1.1);
+}
+
+.graduating-text {
+    padding-bottom:20px;
+}
+
+/* Headers */
+h1 {
+    margin: 5px;
+}
+h2 {
+    border-bottom: 2px dotted #232323;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+/* Skills section */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.skill-box {
+    display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
-    border: 1px solid red;
-    background-color: gray;
-    font-weight: bold;
+    text-align: center;
+    flex: 1 1 180px;
+    background: #44576D;
+    color:white;
+    height: 80px;
+    border-radius: 5px;
 }
 
-.profile-picture{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: 200px;
-}
-
-.first-container{
-    background-color:rgb(147, 203, 255);
-}
-
-.second-container{
-    background-color:rgb(124, 190, 248);
+.skill-box:hover {
+    transform: scale(1.1);
 }
 
 
-.github-profile{
-    width:80px;height:42px;
+/* Social link section */
+.social-link img {
+    width: 35px;
+    margin: 5px;
 }
-
-.linkedin-profile{
-    width:42px;height:42px;
-}
-
-.body{
-    background-color:powderblue;
+.social-link img:hover {
+    transform: scale(1.1);
 }
